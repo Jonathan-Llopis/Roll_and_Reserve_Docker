@@ -1,0 +1,6 @@
+[submodule "Roll_and_Reserve_App"]
+	path = Roll_and_Reserve_App
+	url = https://github.com/Jonathan-Llopis/Roll_and_Reserve_App.git
+[submodule "Roll_and_Reserve_DataBase"]
+	path = Roll_and_Reserve_DataBase
+	url = https://github.com/Jonathan-Llopis/Roll_and_Reserve_DataBase.git
