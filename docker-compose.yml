@@ -15,17 +15,17 @@ services:
     environment:
       - TZ=Europe/Berlin
 
-  flutter:
-    build: ./Roll_and_Reserve_App
-    depends_on:
-      - web_server
-    ports:
-      - 8080:8080
-    container_name: Roll_and_Reserve-flutter
-    volumes:
-      - ./Roll_and_Reserve:/app
-    environment:
-      - TZ=Europe/Berlin
+  # flutter:
+  #   build: ./Roll_and_Reserve_App
+  #   depends_on:
+  #     - web_server
+  #   ports:
+  #     - 8080:8080
+  #   container_name: Roll_and_Reserve-flutter
+  #   volumes:
+  #     - ./Roll_and_Reserve:/app
+  #   environment:
+  #     - TZ=Europe/Berlin
 
   database:
     image: yobasystems/alpine-mariadb:10.11.8
