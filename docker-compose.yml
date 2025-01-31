@@ -1,4 +1,4 @@
-version: '3'
+version: "3"
 services:
   web_server:
     build: ./Roll_and_Reserve_DataBase
@@ -12,6 +12,17 @@ services:
     command: pm2-runtime start pm2.json
     volumes:
       - ./Roll_and_Reserve_DataBase:/web
+    environment:
+      - TZ=Europe/Berlin
+  
+  bgg-api:
+    build: ./bgg-api/dockerfiles
+    ports:
+      - "8070:80"
+    container_name: Roll_and_Reserve-BGG-API
+    working_dir: /opt/bgg-api
+    volumes:
+      - ./bgg-api/target:/opt/bgg-api
     environment:
       - TZ=Europe/Berlin
 
