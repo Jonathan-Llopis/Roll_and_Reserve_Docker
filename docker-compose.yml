@@ -15,28 +15,29 @@ services:
     environment:
       - TZ=Europe/Berlin
   
-  bgg-api:
-    build: ./bgg-api/dockerfiles
-    ports:
-      - "8070:80"
-    container_name: Roll_and_Reserve-BGG-API
-    working_dir: /opt/bgg-api
-    volumes:
-      - ./bgg-api/target:/opt/bgg-api
-    environment:
-      - TZ=Europe/Berlin
-
-  # flutter:
-  #   build: ./Roll_and_Reserve_App
-  #   depends_on:
-  #     - web_server
+  # bgg-api:
+  #   build: ./bgg-api/dockerfiles
   #   ports:
-  #     - 8080:8080
-  #   container_name: Roll_and_Reserve-flutter
+  #     - "8070:80"
+  #   container_name: Roll_and_Reserve-BGG-API
+  #   working_dir: /opt/bgg-api
   #   volumes:
-  #     - ./Roll_and_Reserve:/app
+  #     - ./bgg-api/target:/opt/bgg-api
   #   environment:
   #     - TZ=Europe/Berlin
+
+  flutter:
+    build: ./Roll_and_Reserve_App
+    depends_on:
+      - web_server
+    ports:
+      - 8080:8080
+    container_name: Roll_and_Reserve-flutter
+    command: flutter run -d web-server --web-hostname=0.0.0.0 --web-port=8080
+    volumes:
+      - ./Roll_and_Reserve_App:/app
+    environment:
+      - TZ=Europe/Berlin
 
   database:
     image: yobasystems/alpine-mariadb:10.11.8
