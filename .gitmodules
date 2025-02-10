@@ -4,3 +4,6 @@
 [submodule "Roll_and_Reserve_DataBase"]
 	path = Roll_and_Reserve_DataBase
 	url = https://github.com/Jonathan-Llopis/Roll_and_Reserve_DataBase.git
+[submodule "Roll_and_Reserve_Bgg-Api"]
+	path = Roll_and_Reserve_Bgg-Api
+	url = https://github.com/Jonathan-Llopis/bgg-api
