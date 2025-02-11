@@ -26,18 +26,18 @@ services:
   #   environment:
   #     - TZ=Europe/Berlin
 
-  flutter:
-    build: ./Roll_and_Reserve_App
-    depends_on:
-      - web_server
-    ports:
-      - 9090:8080
-    container_name: Roll_and_Reserve-flutter
-    command: flutter run -d web-server --web-hostname=0.0.0.0 --web-port=8080
-    volumes:
-      - ./Roll_and_Reserve_App:/app
-    environment:
-      - TZ=Europe/Berlin
+  # flutter:
+  #   build: ./Roll_and_Reserve_App
+  #   depends_on:
+  #     - web_server
+  #   ports:
+  #     - 9090:8080
+  #   container_name: Roll_and_Reserve-flutter
+  #   command: flutter run -d web-server --web-hostname=0.0.0.0 --web-port=8080
+  #   volumes:
+  #     - ./Roll_and_Reserve_App:/app
+  #   environment:
+  #     - TZ=Europe/Berlin
 
   database:
     image: yobasystems/alpine-mariadb:10.11.8
