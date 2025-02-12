@@ -9,7 +9,7 @@ Este repositorio contiene **Roll & Reserve**, una aplicación multiplataforma de
 **Roll & Reserve** permite a los usuarios buscar, filtrar y reservar mesas según juegos específicos, horarios y plazas disponibles. Los propietarios pueden gestionar las mesas, añadir juegos y consultar estadísticas para mejorar sus servicios.
 **Referencias:**
 - [**Roll_and_Reserve_Bgg-Api**](https://github.com/Jonathan-Llopis/bgg-api/tree/28c7c111297c83dded0661907fb4b5231686b589): Repositorio utilizado para la integración de la API de BGG. [bgg-api](https://github.com/tnaskali/bgg-api) por [Thomas Naskali](https://github.com/tnaskali).
-- [**BoardGameGeek**](https://boardgamegeek.com/): Utilizamos la base de datos de BoardGameGeek para realizar consultas, siendo esta la fuente de nuestros datos. Se aplican los terminos de uso de explicados en este apartado [Bgg Terms of Use](https://boardgamegeek.com/wiki/page/XML_API_Terms_of_Use#).
+- [**BoardGameGeek**](https://boardgamegeek.com/): Utilizamos la base de datos de BoardGameGeek para realizar consultas, siendo esta la fuente de nuestros datos. Se aplican los términos de uso descritos en esta sección [Bgg Terms of Use](https://boardgamegeek.com/wiki/page/XML_API_Terms_of_Use#).
  
 [![BoardGameGeek Logo](https://cf.geekdo-images.com/HZy35cmzmmyV9BarSuk6ug__thumb/img/gbE7sulIurZE_Tx8EQJXnZSKI6w=/fit-in/200x150/filters:strip_icc()/pic7779581.png)](https://boardgamegeek.com/)
 
