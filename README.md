@@ -9,6 +9,10 @@ Este repositorio contiene **Roll & Reserve**, una aplicación multiplataforma de
 **Roll & Reserve** permite a los usuarios buscar, filtrar y reservar mesas según juegos específicos, horarios y plazas disponibles. Los propietarios pueden gestionar las mesas, añadir juegos y consultar estadísticas para mejorar sus servicios.
 **Referencias:**
 - [**Roll_and_Reserve_Bgg-Api**](https://github.com/Jonathan-Llopis/bgg-api/tree/28c7c111297c83dded0661907fb4b5231686b589): Repositorio utilizado para la integración de la API de BGG. [bgg-api](https://github.com/tnaskali/bgg-api) por [Thomas Naskali](https://github.com/tnaskali).
+- [**BoardGameGeek**](https://boardgamegeek.com/): Utilizamos la base de datos de BoardGameGeek para realizar consultas, siendo esta la fuente de nuestros datos. Se aplican los terminos de uso de explicados en este apartado [Bgg Terms of Use](https://boardgamegeek.com/wiki/page/XML_API_Terms_of_Use#).
+ 
+[![BoardGameGeek Logo](https://cf.geekdo-images.com/HZy35cmzmmyV9BarSuk6ug__thumb/img/gbE7sulIurZE_Tx8EQJXnZSKI6w=/fit-in/200x150/filters:strip_icc()/pic7779581.png)](https://boardgamegeek.com/)
+
 ---
 
 ## 🚀 Funcionalidades Principales  
@@ -104,26 +108,4 @@ Si deseas colaborar o tienes alguna sugerencia, no dudes en ponerte en contacto:
 ¡Gracias por visitar este repositorio! 😊
 
 ---
-
-## Términos de Uso de la API XML de BoardGameGeek
-
-Tu acceso a la API XML proporcionada por BoardGameGeek, LLC ("BGG") y tu uso de los datos proporcionados por BGG_XML_API y BGG_XML_API2, está sujeto a los Términos de Servicio generalmente aplicables a todas las características de BGG, que están disponibles en [términos](http://www.boardgamegeek.com/terms) y se incorporan aquí por referencia ("TOS"), y cualquier modificación a los mismos. Las palabras con mayúscula inicial utilizadas aquí sin definición tendrán el significado que se les atribuye en los TOS.
-
-Además, debido a las características particulares de la API XML de BGG, al acceder y utilizar la información de la API XML de BGG, aceptas estar sujeto a los siguientes términos adicionales.
-
-BGG te otorga una licencia mundial, no exclusiva y libre de regalías para reproducir y mostrar los datos disponibles a través de la API XML de BGG, incluidos los Envíos de Usuarios, únicamente para fines estrictamente no comerciales y únicamente según lo permitido por la API XML proporcionada por BGG. BGG tendrá el derecho de terminar esta licencia en cualquier momento y por cualquier motivo a su sola discreción.
-
-El uso de la API XML, o de cualquiera de los datos en el sitio, para entrenar un sistema de IA (Inteligencia Artificial) o un modelo de lenguaje grande (LLM) está estrictamente prohibido.
-
-Si deseas licenciar la API XML para uso comercial, por favor contacta a Daniel Karp.
-
-No puedes modificar los datos, incluidos los Envíos de Usuarios, obtenidos a través de la API XML de BGG de ninguna manera. En todos los usos de la API XML de BGG, debes acreditar a BoardGameGeek por nombre como la fuente de los datos. Te pedimos que incluyas el siguiente logo (vinculado a BoardGameGeek) en los usos públicos de la API XML:
-
-Usuario: dakarp
-
-Reconoces que BGG puede cambiar la API XML de vez en cuando. Estos cambios pueden requerir que actualices tu implementación para asegurar el funcionamiento adecuado. Tu uso de la API XML de BGG no debe interferir con el funcionamiento normal de los servidores de BGG y reconoces que BGG puede monitorear la actividad de la API XML.
-
-BGG se reserva el derecho de modificar estos términos en cualquier momento publicándolos en esta página.
-
-Los textos disponibles a través de la API XML de BGG con la fuente designada como Wikipedia están disponibles para ti bajo la licencia de Creative Commons Attribution-NonCommercial-ShareAlike, disponible en http://creativecommons.org/licenses/by-nc-sa/3.0/ ![BoardGameGeek Logo](https://cf.geekdo-images.com/HZy35cmzmmyV9BarSuk6ug__thumb/img/gbE7sulIurZE_Tx8EQJXnZSKI6w=/fit-in/200x150/filters:strip_icc()/pic7779581.png)
 
