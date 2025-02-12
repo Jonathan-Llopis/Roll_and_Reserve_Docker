@@ -103,6 +103,8 @@ Si deseas colaborar o tienes alguna sugerencia, no dudes en ponerte en contacto:
 **Roll & Reserve** no solo simplifica la gestión de reservas, sino que fortalece la comunidad de jugadores de mesa, facilitando encuentros y promoviendo experiencias únicas.  
 ¡Gracias por visitar este repositorio! 😊
 
+---
+
 ## Términos de Uso de la API XML de BoardGameGeek
 
 Tu acceso a la API XML proporcionada por BoardGameGeek, LLC ("BGG") y tu uso de los datos proporcionados por BGG_XML_API y BGG_XML_API2, está sujeto a los Términos de Servicio generalmente aplicables a todas las características de BGG, que están disponibles en [términos](http://www.boardgamegeek.com/terms) y se incorporan aquí por referencia ("TOS"), y cualquier modificación a los mismos. Las palabras con mayúscula inicial utilizadas aquí sin definición tendrán el significado que se les atribuye en los TOS.
@@ -125,4 +127,3 @@ BGG se reserva el derecho de modificar estos términos en cualquier momento publ
 
 Los textos disponibles a través de la API XML de BGG con la fuente designada como Wikipedia están disponibles para ti bajo la licencia de Creative Commons Attribution-NonCommercial-ShareAlike, disponible en http://creativecommons.org/licenses/by-nc-sa/3.0/ ![BoardGameGeek Logo](https://cf.geekdo-images.com/HZy35cmzmmyV9BarSuk6ug__thumb/img/gbE7sulIurZE_Tx8EQJXnZSKI6w=/fit-in/200x150/filters:strip_icc()/pic7779581.png)
 
-...
