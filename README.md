@@ -104,8 +104,105 @@ Si deseas colaborar o tienes alguna sugerencia, no dudes en ponerte en contacto:
 
 ---
 
+## 🛠️ Configuración del Entorno de Desarrollo
+
+### Prerrequisitos
+- **Node.js** (versión 14 o superior)
+- **Flutter** (versión 2.0 o superior)
+- **Docker** y **Docker Compose**
+- **MariaDB** (opcional si no se usa Docker)
+
+### Pasos de Instalación
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/Jonathan-Llopis/Roll_and_Reserve_Docker.git
+   cd Roll_and_Reserve_Docker
+   ```
+
+2. Instala las dependencias del backend:
+   ```bash
+   cd Roll_and_Reserve_DataBase
+   npm install
+   ```
+
+3. Instala las dependencias del frontend:
+   ```bash
+   cd ../Roll_and_Reserve_App
+   flutter pub get
+   ```
+
+4. Configura las variables de entorno:
+   Crea un archivo `.env` en la raíz del proyecto y añade las siguientes variables:
+   ```env
+   WEB_SERVER_PORT=8080
+   MYSQL_ROOT_PASSWORD=my-secret-pw
+   MYSQL_DATABASE=nombre_de_la_base_de_datos
+   MYSQL_USER=usuario_de_la_base_de_datos
+   MYSQL_PASSWORD=contraseña_del_usuario
+   MAIL_USER=mailUser
+   MAIL_CLIENT_ID=Nothing
+   MAIL_PASSWORD=passwordEmail
+   ENABLE_TOKEN_VALIDATION=false
+   MONGODB_URI=mongodb://admin:password@mongodb:27017
+   MONGO_INITDB_ROOT_USERNAME=admin
+   MONGO_INITDB_ROOT_PASSWORD=password
+   ```
+
+---
+
+## 🐳 Ejecución de la Aplicación con Docker
+
+### Comandos
+1. Construye y levanta los contenedores:
+   ```bash
+   docker-compose up --build
+   ```
+
+2. Detén y elimina los contenedores:
+   ```bash
+   docker-compose down
+   ```
+
+### Variables de Entorno
+Asegúrate de que las variables de entorno en el archivo `.env` están correctamente configuradas antes de ejecutar los comandos de Docker.
+
+---
+
+## 🌟 Cómo Contribuir
+
+### Directrices para Pull Requests
+1. **Fork** el repositorio y clona tu fork.
+2. Crea una nueva rama para tu contribución:
+   ```bash
+   git checkout -b nombre-de-tu-rama
+   ```
+3. Realiza tus cambios y haz commit:
+   ```bash
+   git commit -m "Descripción de tus cambios"
+   ```
+4. Sube tus cambios a tu fork:
+   ```bash
+   git push origin nombre-de-tu-rama
+   ```
+5. Abre un **Pull Request** en el repositorio original.
+
+### Estilo de Código
+- Sigue las convenciones de estilo de código de **JavaScript** y **Dart**.
+- Asegúrate de que tu código pasa todas las pruebas antes de enviar un pull request.
+
+---
+
+## 🐞 Reporte de Problemas y Solicitud de Funcionalidades
+
+### Reporte de Problemas
+Si encuentras algún problema, por favor repórtalo en el [issue tracker](https://github.com/Jonathan-Llopis/Roll_and_Reserve_Docker/issues).
+
+### Solicitud de Funcionalidades
+Si tienes alguna idea para una nueva funcionalidad, por favor crea un nuevo issue en el [issue tracker](https://github.com/Jonathan-Llopis/Roll_and_Reserve_Docker/issues) y describe tu propuesta en detalle.
+
+---
+
 **Roll & Reserve** no solo simplifica la gestión de reservas, sino que fortalece la comunidad de jugadores de mesa, facilitando encuentros y promoviendo experiencias únicas.  
 ¡Gracias por visitar este repositorio! 😊
 
 ---
-
