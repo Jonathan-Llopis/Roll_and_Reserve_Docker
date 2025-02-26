@@ -16,13 +16,10 @@ services:
       - TZ=Europe/Berlin
   
   bgg-api:
-    build: ./Roll_and_Reserve_Bgg-Api/dockerfiles
+    image: ghcr.io/tnaskali/bgg-api:master
     ports:
        - "8070:80"
     container_name: Roll_and_Reserve-BGG-API
-    working_dir: /opt/bgg-api
-    volumes: 
-       - ./Roll_and_Reserve_Bgg-Api/target:/opt/bgg-api
     environment:
        - TZ=Europe/Berlin
 
