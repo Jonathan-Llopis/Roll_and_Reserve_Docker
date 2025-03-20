@@ -50,6 +50,20 @@ services:
     volumes:
       - ./Roll_and_Reserve/data/db/mysql:/var/lib/mysql
 
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: Roll_and_Reserve-phpmyadmin
+    depends_on:
+      - database
+    ports:
+      - "8010:80"
+    environment:
+      - PMA_HOST=database
+      - PMA_USER=${MYSQL_USER}
+      - PMA_PASSWORD=${MYSQL_PASSWORD}
+      - PMA_PORT=3306
+      - TZ=Europe/Berlin
+
   mongodb:
     image: mongo:noble
     environment:
@@ -57,3 +71,4 @@ services:
       - MONGO_INITDB_ROOT_PASSWORD=${MONGO_INITDB_ROOT_PASSWORD}
     volumes:
       - ./Roll_and_Reserve/data/mongo-data:/data/db
+ 
