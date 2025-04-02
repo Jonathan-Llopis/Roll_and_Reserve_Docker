@@ -204,7 +204,7 @@ Si tienes alguna idea para una nueva funcionalidad, por favor crea un nuevo issu
 
 ## 📦 APK
 Puedes descargar la última versión de la aplicación en formato APK desde el siguiente enlace:
-[Descargar APK]([https://example.com/download/apk](https://drive.google.com/file/d/1oPt2QN-iVxijRUg30dLzihGOqhbV_RT1/view?usp=drive_link))
+[Descargar APK](https://drive.google.com/file/d/1oPt2QN-iVxijRUg30dLzihGOqhbV_RT1/view?usp=drive_link)
 
 ---
 
