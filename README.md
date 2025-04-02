@@ -202,7 +202,27 @@ Si tienes alguna idea para una nueva funcionalidad, por favor crea un nuevo issu
 
 ---
 
-**Roll & Reserve** no solo simplifica la gestión de reservas, sino que fortalece la comunidad de jugadores de mesa, facilitando encuentros y promoviendo experiencias únicas.  
-¡Gracias por visitar este repositorio! 😊
+## 📦 APK
+Puedes descargar la última versión de la aplicación en formato APK desde el siguiente enlace:
+[Descargar APK](https://example.com/download/apk)
 
 ---
+
+## 🌐 Enlace a la Aplicación
+Puedes acceder a la aplicación en modo navegador desde el siguiente enlace:
+[Acceder a la Aplicación](https://example.com/app)
+
+---
+
+## 📄 Presentación en PDF
+Puedes descargar la presentación del proyecto en formato PDF desde el siguiente enlace:
+[Descargar Presentación](https://example.com/download/presentation.pdf)
+
+---
+
+## 📚 Bibliografía Utilizada
+- Manuales de Flutter y Dart.
+- Documentación oficial de NestJS.
+- Tutoriales de Firebase Cloud Messaging.
+- Artículos y guías sobre MariaDB y TypeORM.
+- Documentación de la API de BoardGameGeek.
